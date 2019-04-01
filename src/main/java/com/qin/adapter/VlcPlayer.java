@@ -8,10 +8,12 @@ package com.qin.adapter;
  */
 public class VlcPlayer implements AdvancedMediaPlayer{
 
+    @Override
     public void playVlc(String url) {
         System.out.println("开始播放vlc:"+url);
     }
 
+    @Override
     public void playMap4(String url) {
 
     }

@@ -19,6 +19,7 @@ public class MediaAdapter implements MediaPlayer{
         }
     }
 
+    @Override
     public void play(String type, String url) {
         if ("mp4".equals(type)){
             advancedMediaPlayer.playMap4(url);

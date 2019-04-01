@@ -9,10 +9,12 @@ package com.qin.adapter;
 public class Mp4Player implements AdvancedMediaPlayer{
 
 
+    @Override
     public void playVlc(String url) {
 
     }
 
+    @Override
     public void playMap4(String url) {
         System.out.println("开始播放mp4:"+url);
     }

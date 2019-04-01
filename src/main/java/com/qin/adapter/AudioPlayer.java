@@ -10,6 +10,7 @@ public class AudioPlayer implements MediaPlayer{
 
     private MediaAdapter mediaAdapter;
 
+    @Override
     public void play(String type,String url) {
         if ("mp3".equals(type)){
             System.out.println("我自己就能播放map3:"+url);
