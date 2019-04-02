@@ -1,4 +1,4 @@
-package com.qin.factory;
+package com.qin.factory.nomal;
 
 /**
  * @author by Tracy
