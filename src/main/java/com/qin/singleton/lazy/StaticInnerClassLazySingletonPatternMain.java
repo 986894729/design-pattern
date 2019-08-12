@@ -3,7 +3,7 @@ package com.qin.singleton.lazy;
 /**
  * @author by qinganquan
  * @Classname StaticInnerClassLazySingletonPatternMain
- * @Description TODO
+ * @Description 静态内部类的单例模式的运行口
  * @Date 2019/8/12 19:13
  */
 public class StaticInnerClassLazySingletonPatternMain {
