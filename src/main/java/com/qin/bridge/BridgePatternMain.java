@@ -18,6 +18,8 @@ public class BridgePatternMain {
         BaseCommunication cellphoneWeChatCommunication = new CellphoneCommunication(weChatCommunication);
         cellphoneWeChatCommunication.sendMessage("你好！","张小龙！");
 
+        BaseCommunication computerQqCommunication = new ComputerCommunication(qqCommunication);
+        computerQqCommunication.sendMessage("你好！","马化腾！");
     }
 
 }
